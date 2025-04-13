@@ -1,5 +1,5 @@
 # TTT-Video
-<img src="./docs/figures/hero.png" alt="Hero" style="width:100%;"/>
+ss<img src="./docs/figures/hero.png" alt="Hero" style="width:100%;"/>
 TTT-Video is a repository for finetuning diffusion transformers for style transfer and context extension. We use Test-Time Training (TTT) layers to handle long-range relationships across the global context, while reusing the original pretrained model's attention layers for local attention on each three second segment.  <br> <br>
 In this repository, we include training and inference code for 63 second video generation. We finetune our model first at the original pretrained 3 second video length for style transfer and incorporating TTT layers. Then, we train in stages at video lengths of 9 sec, 18 sec, 30 sec, and 63 sec for context extension.
 
